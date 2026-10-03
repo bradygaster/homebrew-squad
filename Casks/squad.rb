@@ -1,9 +1,9 @@
 cask "squad" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.13.0"
-  sha256 arm:   "3d9666d60cbf1636ee21279f0c9ce8cb9a741dfc133ba40126359ce010ca9803",
-         intel: "4f94576e9cd13f49c7f18b90555002958be23518a9ed95bda18f66b458680279"
+  version "1.0.0"
+  sha256 arm:   "3e0d922b725eaf1642b19d480cd45f9e611d644e9bc006b9816f3c1dae5facf9",
+         intel: "cd8b1690da7f9cd8b8f98911fd3a9280e81b986aca32687e45e57bb774c88e1c"
 
   url "https://github.com/bradygaster/squad/releases/download/v#{version}/squad-darwin-#{arch}.tar.gz",
       verified: "github.com/bradygaster/squad/"
