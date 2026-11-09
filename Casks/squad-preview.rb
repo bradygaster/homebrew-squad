@@ -1,9 +1,9 @@
 cask "squad-preview" do
   arch arm: "arm64", intel: "x64"
 
-  version "2.0.0-preview.3"
-  sha256 arm:   "d08f2028673cda6c1ebb5f004d2865bb99932fd124490df2a59961139c094b6d",
-         intel: "0cedcd2973f41c407211bd66468bbf4f15908bd10a796eb4229a92fdbffff45a"
+  version "2.0.0-preview.4"
+  sha256 arm:   "86140353de86e70d58790ce5fffd17b85d469b9317c6d8439e0a24577c359fa7",
+         intel: "00264d3f873651fb5a04e00f136ae0ddfd99e94691d9f293b679042bbaf06bdf"
 
   url "https://github.com/github/squad/releases/download/v#{version}/squad-darwin-#{arch}.tar.gz"
   name "Squad"
